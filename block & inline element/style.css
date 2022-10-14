@@ -1,0 +1,94 @@
+/* * {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #ffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  margin: 0 0 20px;
+}
+.list{
+    padding-left: 40%;
+}
+.button1{
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 50px;
+    color: white;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width:50%;
+    margin:5px 100px;
+   
+} */
+body{
+  margin:0;
+}
+h1,h2,p{
+  margin-top: 0;
+}
+h1{
+  font-size:24px ;
+}
+p{
+  font-size: 18px;
+}
+header,section{
+  padding: 50px;
+}
+header{
+  background-color: yellow;
+  color:black;
+}
+.middle-section{
+  background-color: black;
+  color: white;
+}
+.middle-section a{
+    color: yellow;
+}
+.middle-section .btn{
+  display: inline-block;
+  background-color: yellow;
+  color: black;
+  padding : 15px 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: white;
+  color: black;
+}
+.last-section a{
+  color: black;
+}
+.last-section .btn2{
+  display: inline-block;
+  background-color: black;
+  color:white;
+  padding : 15px 30px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn2:hover{
+  background-color: yellow;
+  color: black;
+}
+h2{
+  margin : 2px 0;
+}
